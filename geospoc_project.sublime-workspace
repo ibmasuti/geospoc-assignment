@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"max"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"aler",
+				"alert"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"ch",
+				"checkdate"
+			],
+			[
+				"cha",
+				"change"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fun",
+				"fun_select"
+			],
+			[
+				"file",
+				"file_content"
+			],
+			[
+				"ck",
+				"checkbox"
+			],
+			[
+				"renewed",
+				"renewal_date"
+			],
+			[
+				"mon",
+				"Monthly"
+			],
+			[
+				"Fi",
+				"FileId"
+			],
+			[
+				"ph",
+				"photo"
+			],
+			[
+				"st",
+				"step-4"
+			],
+			[
+				"v",
+				"validate_steps"
+			],
+			[
+				"all",
+				"allocation"
+			],
+			[
+				"De",
+				"Details"
+			],
+			[
+				"Pa",
+				"Parent"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"alert",
+				"alertmodel"
+			],
+			[
+				"roo",
+				"room_type2"
+			],
+			[
+				"ste",
+				"step-2"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"error",
+				"errorflag"
+			],
+			[
+				"vl",
+				"validate_step1"
+			],
+			[
+				"rene",
+				"renewal_date"
+			],
+			[
+				"totsl",
+				"total_dues"
+			],
+			[
+				"succes",
+				"Successful"
+			],
+			[
+				"cu",
+				"current_paid"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"total",
+				"total_paid"
+			],
+			[
+				"dues",
+				"total_dues"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"wi",
+				"wifi_paid"
+			],
+			[
+				"t",
+				"total_dues"
+			],
+			[
+				"tot",
+				"total_paid"
+			],
+			[
+				"to",
+				"total_paid"
+			],
+			[
+				"wif",
+				"wifi_dues"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"co",
+				"control-label"
+			],
+			[
+				"wifi_",
+				"wifi_paid"
+			],
+			[
+				"rent_",
+				"rent_paid"
+			],
+			[
+				"deposit_",
+				"deposit_paid"
+			],
+			[
+				"dep",
+				"deposit"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"room_t",
+				"room_type1"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"bed",
+				"bedallocation"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"doc_",
+				"doc_name"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ema",
+				"email-error-dialog"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/XAMPP/xampp/htdocs/LARAVEL/geospoc"
+	],
+	"file_history":
+	[
+		"/D/XAMPP/xampp/htdocs/LARAVEL/geospoc/a",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/views/about.blade.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/views/showcase.blade.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/app/Message.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/.env",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/database/migrations/2019_07_07_152258_create_messages_table.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/app/Providers/AppServiceProvider.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/assets/sass/_custom.scss",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/assets/sass/_variables.scss",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/assets/sass/app.scss",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/views/layout/app.blade.php",
+		"/D/XAMPP/xampp/htdocs/LARAVEL/blog/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/lutffoods/core/settings.php",
+		"/C/xampp/htdocs/lutffoods/index.php",
+		"/C/xampp/htdocs/lutffoods/admin.zip",
+		"/C/xampp/htdocs/fengse-new/memberadd.php",
+		"/C/xampp/htdocs/fengse-new/js/custom.js",
+		"/C/xampp/htdocs/fengse-new/add-guest.php",
+		"/C/xampp/htdocs/fengse-new/master.php",
+		"/C/xampp/htdocs/fengse-new/activeusers-edit.php",
+		"/C/xampp/htdocs/fengse-new/css/sb-admin.css",
+		"/C/xampp/htdocs/fengse-new/js/validation.js",
+		"/C/xampp/htdocs/fengse-new/bodyend.php",
+		"/C/xampp/htdocs/fengse-new/footer.php",
+		"/C/xampp/htdocs/fengse-new/renewal-add.php",
+		"/C/xampp/htdocs/fengse-new/renewal.php",
+		"/C/xampp/htdocs/fengse-new/deactiveusers-view.php",
+		"/C/xampp/htdocs/fengse-new/deactiveuser.php",
+		"/C/xampp/htdocs/fengse-new/activeusers-view.php",
+		"/C/xampp/htdocs/fengse-new/pay_now.php",
+		"/C/xampp/htdocs/fengse-new/activeusers.php",
+		"/C/xampp/htdocs/fengse-new/getDataBedAllocation.php",
+		"/C/xampp/htdocs/fengse-new/getDataPayments.php",
+		"/C/xampp/htdocs/fengse-new/police-verification.php",
+		"/C/xampp/htdocs/fengse-new/header.php",
+		"/C/xampp/htdocs/fengse-new/upload-documents.php",
+		"/C/xampp/htdocs/fengse-new/bedallocation.php",
+		"/C/xampp/htdocs/fengse-new/personal-details.php",
+		"/C/xampp/htdocs/Payment/cancel.php",
+		"/C/xampp/htdocs/Payment/dbConfig.php",
+		"/C/xampp/htdocs/Payment/success.php",
+		"/C/xampp/htdocs/Payment/products.php",
+		"/C/xampp/htdocs/Payment/core/settings.php",
+		"/C/xampp/htdocs/fengse/personal-details.php",
+		"/C/xampp/htdocs/fengse/activeusers.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "geospoc_project.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"appServ",
+				"app\\Providers\\AppServiceProvider.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
