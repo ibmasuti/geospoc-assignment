@@ -11,7 +11,9 @@
     <title>{{ config('app.name', 'Geospoc') }}</title>
 
     <!-- Styles -->
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
@@ -29,7 +31,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Geospoc') }}
+                       GeoSpoc
                     </a>
                 </div>
 
@@ -42,10 +44,10 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
-                        @if (Auth::guest())
                           
                             <li><a href="{{'/home'}}" >ADMIN</a></li>
-                        @else
+
+                       @if(Auth::User())
                               <li><a href="{{ route('register') }}">Register</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -78,6 +80,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ URL::asset('js/app.js') }}">ssds</script>
 </body>
 </html>

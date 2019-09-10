@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 use App\jobseeker;
 
+use App\comment;
+
 use Location;
+
+use Auth;
 
 class HomeController extends Controller
 {
@@ -61,8 +65,9 @@ class HomeController extends Controller
         $jobseeker = jobseeker::find($request->id);
 
         $position = Location::get($jobseeker->ip_address);
-       
-        return view('profileview', ['jobseeker'=> $jobseeker , 'position' => $position] );
+        if($position != false)
+         return view('profileview', ['jobseeker'=> $jobseeker , 'position' => $position] );
+         return view('profileview', ['jobseeker'=> $jobseeker]);
     }
 
        /**
@@ -77,7 +82,29 @@ class HomeController extends Controller
     return response()->download($file_path);
     
     }
+
+    /**
+     * Post comment And Reviews
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function postcomments(Request $request) {
+
+
+          if($request->ajax() && $request->comment != NULL ){
+
+            $comment = new comment();
+            $comment->user_id = Auth::user()->id;
+            $comment->jobseeker_id = $request->jobseeker_id;
+            $comment->comments = $request->comment;
+            $comment->save();
+           return json_encode(['responce'=>true]);
+           }
+           return json_encode(['responce'=>false]);
+
+    
+    }
     
 
 
-    }
+}

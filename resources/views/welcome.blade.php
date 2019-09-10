@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-      <center><h2>Job Seekers Form</h2><br/></center>
+      <center><h2>Job Seekers Form</h2></center><br/>
       @if ($errors->any())
       <div class="alert alert-danger">
           <ul>
@@ -14,12 +14,11 @@
       </div><br />
       @endif
       @if(session()->has('message'))
-    <div class="alert alert-success">
-        {{ session()->get('message') }}
-    </div>
-@endif
+        <div class="alert alert-success col-md-4">
+            {{ session()->get('message') }}
+        </div>
+     @endif
 
-</h3>
       <form method="post" action="{{url('insertjobseeker')}}" enctype="multipart/form-data">
        <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="row">
@@ -90,10 +89,13 @@
           </div>
         </div>
       </form>
-    </div>
+</div>
 
 
-<script type="text/javascript">
+<script type="application/javascript"> 
+$(document).ready(function(){    
+
+
 $('#refresh').click(function(){
   $.ajax({
      type:'GET',
@@ -104,7 +106,11 @@ $('#refresh').click(function(){
      }
   });
 });
+
+
+$.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
+});
+
 </script>
-</html>
 
 @endsection

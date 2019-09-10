@@ -16,12 +16,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// ..... JobSeekersController
-
-Route::get('createjobseeker', 'JobSeekerForm@create');
-Route::post('insertjobseeker', 'JobSeekerForm@storejobseeker');
+// ......Auth Providers
 
 Auth::routes();
+
+// ..... JobSeekersController
+
+Route::get('createjobseeker', 'JobSeekerController@create');
+Route::post('insertjobseeker', 'JobSeekerController@storejobseeker');
+Route::get('refreshcaptcha', 'JobSeekerController@refreshCaptcha');
 
 // ..... RegisterController
 Route::post('register', 'Auth\RegisterController@register');
@@ -37,5 +40,5 @@ Route::get('profileview/{id}', 'HomeController@profileview');
 
 Route::get('/download/{file}', 'HomeController@download');
 
-// ...... Refresh Captcha
-Route::get('refreshcaptcha', 'JobSeekerForm@refreshCaptcha');
+Route::post('/postcomments', 'HomeController@postcomments');
+

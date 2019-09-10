@@ -31,4 +31,9 @@ class User extends Authenticatable
 
         return $this->hasOne('App\VerifyUser');
     }
+
+     public function comment()  {
+
+        return $this->hasOne('App\comment');
+    }
 }
